@@ -1,0 +1,8 @@
+[package]
+name = "tink"
+version = "0.1.0"
+edition = "2021"
+description = "tink data-flow node frame protocol (universal, language-agnostic): crc32 / frame_encode / frame_next / frame_skip"
+
+[lib]
+name = "tink"
