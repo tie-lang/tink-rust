@@ -11,6 +11,8 @@
 //! assert_eq!(next, f.len());
 //! ```
 
+pub mod v3;
+
 /// CRC32-IEEE over a byte slice (bit-loop, no table; matches zlib.crc32).
 ///
 /// Check vector: `crc32("123456789") == 0xCBF43926`.
