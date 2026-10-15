@@ -1,7 +1,7 @@
 //! tink —— data-flow node frame protocol (universal, language-agnostic).
 //!
 //! Frame = `[len u32 BE][payload][crc u32 BE]`; `crc` = CRC32-IEEE (0xEDB88320).
-//! Mirrors `std/tink.tie` (tie standard library) and any-language nodes;
+//! Mirrors `ext/tink.tie` (tie standard library) and any-language nodes;
 //! pure functions over byte slices, IO (stdin/stdout) left to the caller.
 //!
 //! ```
